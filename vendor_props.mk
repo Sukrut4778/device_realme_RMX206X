@@ -55,7 +55,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Display post-processing
 PRODUCT_PROPERTY_OVERRIDES += \
-    debug.sf.latch_unsignaled=1 \
+    debug.sf.latch_unsignaled=0 \
     ro.vendor.display.ad=1 \
     ro.vendor.display.sensortype=2 \
     ro.vendor.display.ad.sdr_calib_data=/vendor/etc/OPPO_OLED_AD_calib.cfg \
